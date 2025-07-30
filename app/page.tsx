@@ -17,7 +17,7 @@ export default function Home() {
       </AnimatedElement>
       <AnimatedElement delay={0.1}>
         <h1 className="text-3xl md:text-5xl font-bold mb-2 text-gray-900">
-          Hi, welcome to my portfolio
+          Hi, welcome to my portofolio
         </h1>
       </AnimatedElement>
       <AnimatedElement delay={0.2}>

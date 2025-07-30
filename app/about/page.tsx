@@ -10,7 +10,6 @@ interface Certificate {
 }
 
 const certificates: Certificate[] = [
-  // Data sertifikat Anda...
   {
     year: 2025,
     title: "C Programming Bootcamp",
@@ -119,6 +118,7 @@ export default function About() {
           <h2 className={styles.subheading}>Education</h2>
           <div className={styles.educationEntry}>
             <h3>Del Institute of Technology</h3>
+            {/* Perbaikan: 'Bachelor's' diubah menjadi 'Bachelor&apos;s' */}
             <p>Bachelor&apos;s degree, Information Systems</p>
             <p className={styles.date}>Aug 2023 - Oct 2027</p>
           </div>
@@ -133,7 +133,7 @@ export default function About() {
       <AnimatedElement delay={0.2}>
         <section className={styles.section}>
           <h2 className={styles.subheading}>My Certificates & Achievements</h2>
-          {/* Perbaikan: "Here's" dan "I've" diubah */}
+          {/* Perbaikan: "Here's" dan "I've" diubah menjadi "Here&apos;s" dan "I&apos;ve" */}
           <p className={styles.description}>
             Here&apos;s a look at the certifications I&apos;ve earned, marking
             key achievements in my learning journey.
