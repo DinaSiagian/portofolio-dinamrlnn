@@ -9,8 +9,8 @@ interface Certificate {
   description: string;
 }
 
-// Data sertifikat yang lengkap dimasukkan kembali ke sini
 const certificates: Certificate[] = [
+  // Data sertifikat Anda...
   {
     year: 2025,
     title: "C Programming Bootcamp",
@@ -103,12 +103,13 @@ export default function About() {
       <AnimatedElement>
         <section className={styles.section}>
           <h1 className={styles.mainHeading}>About Me</h1>
+          {/* Perbaikan: 'I'm' diubah menjadi 'I&apos;m' */}
           <p className={styles.bio}>
-            I’m a 5th-semester Information Systems student at the Del Institute
-            of Technology with a strong passion for website design, UI/UX, data
-            analysis, and software engineering. I enjoy turning ideas into
-            intuitive digital experiences and am currently deepening my
-            knowledge in designing user-centered websites and interfaces.
+            I&apos;m a 5th-semester Information Systems student at the Del
+            Institute of Technology with a strong passion for website design,
+            UI/UX, data analysis, and software engineering. I enjoy turning
+            ideas into intuitive digital experiences and am currently deepening
+            my knowledge in designing user-centered websites and interfaces.
           </p>
         </section>
       </AnimatedElement>
@@ -118,7 +119,7 @@ export default function About() {
           <h2 className={styles.subheading}>Education</h2>
           <div className={styles.educationEntry}>
             <h3>Del Institute of Technology</h3>
-            <p>Bachelor's degree, Information Systems</p>
+            <p>Bachelor&apos;s degree, Information Systems</p>
             <p className={styles.date}>Aug 2023 - Oct 2027</p>
           </div>
           <div className={styles.educationEntry}>
@@ -132,9 +133,10 @@ export default function About() {
       <AnimatedElement delay={0.2}>
         <section className={styles.section}>
           <h2 className={styles.subheading}>My Certificates & Achievements</h2>
+          {/* Perbaikan: "Here's" dan "I've" diubah */}
           <p className={styles.description}>
-            Here's a look at the certifications I've earned, marking key
-            achievements in my learning journey.
+            Here&apos;s a look at the certifications I&apos;ve earned, marking
+            key achievements in my learning journey.
           </p>
           <ul className={styles.certificateList}>
             {certificates.map((cert) => (

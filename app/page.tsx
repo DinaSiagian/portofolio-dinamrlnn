@@ -21,8 +21,9 @@ export default function Home() {
         </h1>
       </AnimatedElement>
       <AnimatedElement delay={0.2}>
+        {/* Perbaikan: 'I'm' diubah menjadi 'I&apos;m' */}
         <p className="text-xl md:text-2xl mb-4 text-gray-700">
-          I'm Dina Marlina Siagian
+          I&apos;m Dina Marlina Siagian
         </p>
       </AnimatedElement>
       <AnimatedElement delay={0.3}>
