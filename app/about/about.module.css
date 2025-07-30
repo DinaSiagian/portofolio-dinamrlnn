@@ -1,0 +1,87 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem 1.5rem;
+  line-height: 1.7;
+}
+
+.mainHeading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #16a34a; /* green-600 */
+}
+
+.bio {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 3rem;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.subheading {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.educationEntry {
+  background-color: #f9f9f9;
+  border-left: 4px solid #16a34a;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.educationEntry h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #16a34a;
+}
+
+.educationEntry p {
+  margin: 0.25rem 0;
+  color: #444;
+}
+
+.date {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.certificateList {
+  list-style: none;
+  padding: 0;
+}
+
+.certificateItem {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.certificateItem strong {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.certificateItem p {
+  color: #555;
+  margin: 0;
+}
