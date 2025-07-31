@@ -1,3 +1,5 @@
+// file: components/ProjectCard.tsx
+
 import Image from "next/image";
 
 interface ProjectCardProps {
@@ -32,7 +34,8 @@ const ProjectCard = ({
           {tags.map((tag) => (
             <span
               key={tag}
-              className="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-1 rounded-full"
+              // Diubah dari green ke rose untuk tema marun
+              className="bg-rose-100 text-rose-800 text-xs font-semibold px-2.5 py-1 rounded-full"
             >
               {tag}
             </span>

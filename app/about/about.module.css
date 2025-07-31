@@ -11,7 +11,7 @@
   color: #333;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid #16a34a; /* green-600 */
+  border-bottom: 3px solid #881337; /* Diubah dari hijau ke marun */
 }
 
 .bio {
@@ -37,8 +37,8 @@
 }
 
 .educationEntry {
-  background-color: #f9f9f9;
-  border-left: 4px solid #16a34a;
+  background-color: #fcfcfc; /* Sedikit penyesuaian untuk kelembutan */
+  border-left: 4px solid #881337; /* Diubah dari hijau ke marun */
   padding: 1rem 1.5rem;
   margin-bottom: 1rem;
 }
@@ -46,7 +46,7 @@
 .educationEntry h3 {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #16a34a;
+  color: #881337; /* Diubah dari hijau ke marun */
 }
 
 .educationEntry p {

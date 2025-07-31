@@ -1,3 +1,5 @@
+// file: app/page.tsx
+
 import Image from "next/image";
 import Link from "next/link";
 import AnimatedElement from "@/components/AnimatedElement";
@@ -21,7 +23,6 @@ export default function Home() {
         </h1>
       </AnimatedElement>
       <AnimatedElement delay={0.2}>
-        {/* Perbaikan: 'I'm' diubah menjadi 'I&apos;m' */}
         <p className="text-xl md:text-2xl mb-4 text-gray-700">
           I&apos;m Dina Marlina Siagian
         </p>
@@ -29,16 +30,19 @@ export default function Home() {
       <AnimatedElement delay={0.3}>
         <p className="text-md md:text-lg text-gray-600 max-w-2xl mx-auto mb-8">
           Driven by a passion for{" "}
-          <span className="font-semibold text-green-700">Web Development</span>,{" "}
-          <span className="font-semibold text-green-700">Data Analysis</span>,
-          and <span className="font-semibold text-green-700">UI/UX Design</span>
-          .
+          {/* Diubah dari green ke rose untuk tema marun */}
+          <span className="font-semibold text-rose-800">
+            Web Development
+          </span>,{" "}
+          <span className="font-semibold text-rose-800">Data Analysis</span>,
+          and <span className="font-semibold text-rose-800">UI/UX Design</span>.
         </p>
       </AnimatedElement>
       <AnimatedElement delay={0.4}>
         <Link
           href="/projects"
-          className="bg-green-600 text-white font-bold py-3 px-8 rounded-full hover:bg-green-700 transition-colors duration-300 shadow-lg"
+          // Diubah dari green ke rose untuk tema marun
+          className="bg-rose-700 text-white font-bold py-3 px-8 rounded-full hover:bg-rose-800 transition-colors duration-300 shadow-lg"
         >
           View My Projects
         </Link>
